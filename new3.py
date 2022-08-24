@@ -1,3 +1,4 @@
+from operator import index
 from unicodedata import name
 
 
@@ -84,3 +85,21 @@ print(x)
 li.remove(22)
 x=tuple(li)
 print(x)
+z=x+h
+print(z)
+print(x.count(1.4))
+print(x.index)
+#(*a,b,c)=x
+(a,*b,c)=x
+print(a)
+print(b)
+print(c)
+for p in x:
+    print(p)
+i=0
+while i<len(x):
+    print(x[i])
+    i=i+1
+for i in range(1,10,2):
+    print(i)
+
